@@ -17,5 +17,10 @@ cache:
     - $HOME/.cache/yarn
     - $HOME/.composer/cache/files
 
-script:
-  - netlify -t $NETLIFY_TOKEN deploy --site-id festive-wilson-61ad30 -p build_production
+jobs:
+  include:
+    - stage: deploy
+      script: netlify -t $NETLIFY_TOKEN deploy --site-id festive-wilson-61ad30 -p build_production
+stages:
+  - name: deploy
+    if branch = master
