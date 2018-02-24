@@ -3,8 +3,8 @@ language: php
 php:
   - "7.2"
 before_install:
-  - git clone https://github.com/Jubeki/travis-test
-  - cd codedesign
+  - git clone https://github.com/Jubeki/travis-test testsite
+  - cd testsite
   - sudo apt-get update; sudo apt-get install apt-utils gnupg2 -y
   - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
   - sudo apt-get install -y nodejs
