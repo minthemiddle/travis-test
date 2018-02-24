@@ -1,1 +1,19 @@
 # Redirects from what the browser requests to what we serve
+/coach-infos*           https://docs.google.com/presentation/d/1x0Ik5OG6bGKkiQiew-ijjaZlQEEQgyQm3NFTq5fc88w/present?slide=id.p3
+/berlin*                /camps/berlin/1802
+/hamburg*               /camps/hamburg/1803
+/duesseldorf*           /camps/duesseldorf/1803
+/d%C3%BCsseldorf*       /camps/duesseldorf/1803
+/koeln*                 /camps/koeln/1805
+/video/berlin-ostern-17 http://drive.google.com/open?id=0B9VFy06nCNOfZU1mQmJiMTdFVEk
+/video/youtuber-ffm     http://www.youtube.com/watch?v=0U2EhyTTQMM
+/video/koeln-17         http://www.youtube.com/watch?v=4gQ6fqpkyZk
+/botschafter-bewerbung  http://goo.gl/forms/5ZjXujflQJliZiXM2
+/ich-bin-botschafterin  http://goo.gl/forms/5ZjXujflQJliZiXM2
+/camps/coach            /coach      
+/camp                   /camps
+/blogs                  /blog
+
+/camps/camp-in-koeln-2018*   /camps/koeln/1805
+/camps/camp-hamburg-1803*   /camps/hamburg/1803
+/camps/camp-duesseldorf-1803*       /camps/duesseldorf/1803
